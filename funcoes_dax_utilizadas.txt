@@ -1,0 +1,23 @@
+Calendario = CALENDARAUTO()     - cria um calendario automatico
+
+CUSTO = SUMX(vendas, vendas[Quantidade] * RELATED(produto[CustoUnitario])) - soma de duas colunas por exemplo ele fez q auntidade vezes custo unitario e depoois somou tudo
+
+Receita ano anterior = CALCULATE([Receita],SAMEPERIODLASTYEAR(Calendario[Date])) - faz um comparativo ao ano anterior
+
+lucro % = DIVIDE([lucro],[Receita]) - divide uma coisa pela outra
+
+numero mes = MONTH(Calendario[Date]) - pega o numero do mes
+
+mes = FORMAT(Calendario[Date], "mmm") = formata o campo nesse caso mmm é tipo jan, fev, mar
+
+Atendimentos Encerrados = CALCULATE([Atendimentos Totais],TB_ATENDIMENTOS[Status] = "Encerrado") - soma os atendimentos que estao encerrados
+
+Atendimentos Totais = DISTINCTCOUNT(TB_ATENDIMENTOS[ID Atendimento]) - conta cada atendimento sem repetir por isso usado ID
+
+Custo = RELATED(produto[CustoUnitario] ) * vendas[Quantidade] related traz a coluna de outra tabela parar fazer um calculo
+
+cor do velocimentro = 
+    SWITCH(  aqui se for verdadeiro a condiçao faz a primeira linha se nao for tenta a segunda uma das duas vai dar
+        TRUE(),
+        [media avaliação]>= Medida[media], "#2C8AFA",
+        Medida[media avaliação]<= Medida[media], "#FF1010")
