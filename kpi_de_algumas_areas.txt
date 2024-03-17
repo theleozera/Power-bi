@@ -1,0 +1,51 @@
+Kpi's Financeiros
+
+Receita = faturamento total
+Saídas = soma das saidas (lucro, despesas)
+Lucro = receita - saída
+margem bruta(lucro bruto) = receita - custo
+lucro% = lucro/receita
+Churn Rate = perda de clienets ao longo do tempo
+Margem de Contribuição: A diferença entre a receita total e os custos variáveis, que indica a quantidade de receita disponível para cobrir os custos fixos e gerar lucro.
+
+Kpi´s de Qualidade
+
+Taxa de Defeitos = total de defeitos/total fabricados
+Taxa de Rejeiçao/retrabalhado = numero de produtos rejeitados/total produzidos
+Satisfacao do cliente = NPS
+taxa de reincidencia = total de defeitos recorrentes/total de defeitos corrigidos
+taxa de retorno = produtos devolvidos/produttos vendidos
+taxa de entraga no prazo = entrega de produtos no prazo/produtos vendidos
+
+Kpi's Logistica
+
+On time = pedido foi entregue no prazo
+In full = se teve alguma avaria ou estravia, caso nao, foi in full
+OTIF = on time vs in full
+
+Kpi's Educação
+
+Taxa de Retenção de Alunos: Porcentagem de alunos que permanecem matriculados na instituição ano ano
+Taxa de Conclusão de Curso: Porcentagem de alunos que completam o curso
+Taxa de Aprovação: Porcentagem de alunos que passam em exames ou avaliações em relação ao total de alunos que participaram.
+Desempenho em Testes Padronizados: Média de pontuações dos alunos em testes padronizados, como SAT, ENEM, ou outros exames nacionais ou estaduais.
+Taxa de Frequência: Porcentagem média de presença dos alunos nas aulas ao longo de um período de tempo específico.
+Taxa de Absorção de Conteúdo: Porcentagem de alunos que demonstram compreensão e domínio dos conteúdos ensinados, geralmente avaliados por meio de testes ou avaliações.
+Satisfação dos Alunos: Avaliação da satisfação dos alunos em relação aos serviços educacionais oferecidos pela instituição, geralmente medida por meio de pesquisas de satisfação.
+Tempo Médio de Graduação: Tempo médio que os alunos levam para concluir um curso ou programa educacional.
+Taxa de Colocação no Mercado de Trabalho: Porcentagem de alunos que conseguem emprego em suas áreas de estudo dentro de um período de tempo após a formatura.
+Investimento por Aluno: Custo médio associado à educação de cada aluno, incluindo mensalidades, materiais didáticos, despesas com professores, entre outros.
+
+Kpi´s TI
+
+TI e Tecnologia:
+Tempo Médio de Resolução de Incidentes: Tempo médio necessário para resolver incidentes de TI ou interrupções de serviço.
+Disponibilidade do Sistema: Porcentagem de tempo em que os sistemas de TI estão disponíveis e operacionais.
+Número de Incidentes de Segurança: Número de incidentes de segurança cibernética relatados ou detectados em um determinado período de tempo.
+
+Kpi's Sac
+
+Atendimento ao Cliente:
+Tempo Médio de Resolução de Problemas: Tempo médio necessário para resolver problemas ou solicitações de clientes.
+Satisfação do Cliente: Avaliação da satisfação dos clientes por meio de pesquisas de satisfação ou feedbacks diretos.
+Taxa de Retenção de Clientes: Porcentagem de clientes que permanecem fiéis à empresa ao longo do tempo.
