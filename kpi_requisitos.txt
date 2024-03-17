@@ -1,0 +1,31 @@
+kpi
+
+satisfacao - nps
+lucro
+faturamento
+ticket medio - quantos clientes em media compram
+
+missao = pq existimos
+valores - no que acreditamos 
+visao - o queremos nos tornar
+estrategia - qual plano
+iniciativas estrategicas - oq precisamos fazer
+obetivos pessoais - oq eu prreciso fazer
+
+outcome- um objetivo de uma ideia a meses tipo perder kilo por mes
+driver- mede a causa, tipo o plano no caso de perder kilo seria uma dieta, atividade fisica
+
+
+criterio para criar indicador
+relevante
+representativo preciso
+confiavel (fonte e metodologicamente)
+acessivel
+simples pra comunicar
+estavel
+atual
+
+criar
+relaçcao de fatores
+comparativo (historico)
+nivel desejado (unico, % nivel desejado)
