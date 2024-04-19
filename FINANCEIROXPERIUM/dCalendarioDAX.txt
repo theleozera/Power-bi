@@ -1,0 +1,23 @@
+dCalendario = 
+ADDCOLUMNS(
+	CALENDARAUTO(),
+    "Ano" , YEAR ( [Date] ),
+    "Anomês nome", FORMAT ( [Date], "mmm/yy" ),
+    "Anomês" , FORMAT([Date],"yyyy/mm"),
+    "Trim num" , QUARTER([Date]),
+    "Trim nome", FORMAT ([Date], "\Qq" ),
+    "Mês num" , MONTH ( [Date] ),
+    "Mês nome", FORMAT ( [Date], "mmm" ),
+    "Dia" , DAY([Date]),
+    "Diadasemana",WEEKDAY([Date],2),
+    "Semana num",WEEKDAY([Date]),
+    "Diadetrabalho", IF(WEEKDAY([Date],2)=1||WEEKDAY([Date],2)=7,"N","S"),
+    "Ano atual" , IF(YEAR([Date])=YEAR(TODAY()),"S","N"),
+    "Mês atual" , IF(YEAR([Date])=YEAR(TODAY()) && MONTH([Date])=MONTH(TODAY()),"S","N"),
+    "Dia atual" , IF(YEAR([Date])=YEAR(TODAY()) && MONTH([Date])=MONTH(TODAY()) && DAY([Date])=DAY(TODAY()),"S","N"),
+    "Ano móvel" , DATEDIFF(TODAY(),[Date],YEAR),
+    "Trim. móvel",DATEDIFF(TODAY(),[Date],QUARTER),
+    "Mês móvel",DATEDIFF(TODAY(),[Date],MONTH),
+    "Semana móvel",DATEDIFF(TODAY(),[Date],WEEK),
+    "Dia movel",DATEDIFF(TODAY(),[Date],DAY)
+)
